@@ -8,7 +8,7 @@ let newDate = d.getMonth() + "." + d.getDate() + "." + d.getFullYear();
 
 // Configure URL - Personal API Key for OpenWeatherMap API
 const baseURL = "https://api.openweathermap.org/data/2.5/weather?zip=",
-  apiKey = "905efaf2bfca647d0e795bd2a6ee5867",
+  apiKey = "",
   zipCode = document.getElementById("zip");
 let entryZip = null;
 let lang = "en";
